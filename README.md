@@ -1,16 +1,19 @@
-# TutorialNinja Automation
+# TutorialNinja Automation Framework
 
-This project automates testing for the TutorialNinja demo site using Selenium WebDriver with TestNG, ExtentReports, and Listeners.
+This project is a Selenium TestNG automation suite for the [TutorialNinja demo site](http://tutorialsninja.com/demo).
 
-## Features
-- Add product to cart and checkout flow
-- User registration and login tests
-- Detailed test reports using ExtentReports
+## ✅ Features
 
-## How to Run
-- Open in Eclipse or IntelliJ
-- Run `AddProductCheckoutTest.java`
-- View reports in `test-output/ExtentReport.html`
+- Built using **Selenium WebDriver** and **TestNG**
+- All tests run in **Chrome**
+- Includes:
+  - Login test
+  - Registration test
+  - Product search test
+  - Add to cart and complete checkout
+- Custom **TestNG Listeners**
+- Integrated **Extent Reports**
+- Project structure follows `com.tutorialninja` package convention
 
-## Author
-Fatma Yahia (@yahfatma18)
+## 📂 Project Structure
+
